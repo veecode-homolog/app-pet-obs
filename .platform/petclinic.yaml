@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-pet-obs-petclinic
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: veecode-homolog/app-pet-obs
+    grafana/dashboard-selector: "app-pet-obs-petclinic"
+    grafana/alert-label-selector: "alertname=app-pet-obs-petclinic"
+    kong-manager/service-name: vkpr.app-pet-obs-petclinic.80                   
+    kong-manager/instance: /kong-manager/ec2-obs-deploy-apps 
+spec:
+  type: service
+  lifecycle: experimental
+  owner: admin
