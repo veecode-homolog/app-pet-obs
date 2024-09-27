@@ -5,7 +5,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: veecode-platform/vkdr-catalog
-    kong-manager/service-name: vkdr.petclinic.80                   
+    kong-manager/service-name: veecode-apr.devportal-petclinic.80                   
     kong-manager/instance: /kong-manager/cluster-vkdr-local
 spec:
   type: service
